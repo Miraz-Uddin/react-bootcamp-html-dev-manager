@@ -1,7 +1,7 @@
 import UserImage from "@assets/noteDummy.jpg";
-import style from "@users/Users.module.css";
+import style from "@profile/Profile.module.css";
 import { Card, Col, Figure, Image, Row } from "react-bootstrap";
-export default function AddNote() {
+export default function ViewSection() {
   return (
     <Card className={style.userCard}>
       <Row className={`${style.userCardTop} g-0`}>
@@ -13,26 +13,39 @@ export default function AddNote() {
             <Figure>
               <Card.Title className="mb-4">Sherlock Holmes</Card.Title>
               <Figure.Caption className="blockquote-footer">
-                Date Of Birth:{" "}
-                <cite title="Source Title" className="text-success">
-                  May 22, 1859
-                </cite>
-              </Figure.Caption>
-              <Figure.Caption className="blockquote-footer">
                 Email:{" "}
-                <cite title="Source Title" className="text-success">
+                <cite title="Source Title" className="focused">
                   holmes.sherlock@gmail.com
                 </cite>
               </Figure.Caption>
               <Figure.Caption className="blockquote-footer">
                 Phone:{" "}
-                <cite title="Source Title" className="text-success">
-                  +880 18 11 66 11 66
+                <cite title="Source Title" className="focused">
+                  +880 181 166 1166
+                </cite>
+              </Figure.Caption>
+
+              <Figure.Caption className="blockquote-footer">
+                Date Of Birth:{" "}
+                <cite title="Source Title" className="focused">
+                  May 22, 1859
+                </cite>
+              </Figure.Caption>
+              <Figure.Caption className="blockquote-footer">
+                Gender:{" "}
+                <cite title="Source Title" className="focused">
+                  Male
+                </cite>
+              </Figure.Caption>
+              <Figure.Caption className="blockquote-footer">
+                Profession:{" "}
+                <cite title="Source Title" className="focused">
+                  Engineer
                 </cite>
               </Figure.Caption>
               <Figure.Caption className="blockquote-footer">
                 Address:{" "}
-                <cite title="Source Title" className="text-success">
+                <cite title="Source Title" className="focused">
                   221B Baker St., London
                 </cite>
               </Figure.Caption>
@@ -54,7 +67,7 @@ export default function AddNote() {
             <Card.Text>
               <span>
                 <small className="text-body-secondary">
-                  User Registered 3 Hrs ago
+                  You Registered to this Website 3 Hrs ago
                 </small>
               </span>
             </Card.Text>

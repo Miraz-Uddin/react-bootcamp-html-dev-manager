@@ -15,9 +15,10 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src/"),
       "@utils": `${path.resolve(__dirname, "./src/utils/")}`,
       "@assets": `${path.resolve(__dirname, "./src/assets/")}`,
+      "@pages": `${path.resolve(__dirname, "./src/pages/")}`,
       "@shared": `${path.resolve(__dirname, "./src/components/shared/")}`,
       "@notes": `${path.resolve(__dirname, "./src/components/notes/")}`,
-      "@users": `${path.resolve(__dirname, "./src/components/users/")}`,
+      "@profile": `${path.resolve(__dirname, "./src/components/profile/")}`,
     },
   },
 });

@@ -1,10 +1,10 @@
 import { Col, Row } from "react-bootstrap";
 
-export default function EditNote() {
+export default function EditSection() {
   return (
     <div className="section">
       <Row>
-        <Col>Edit Note</Col>
+        <Col>Edit Profile Form</Col>
       </Row>
     </div>
   );

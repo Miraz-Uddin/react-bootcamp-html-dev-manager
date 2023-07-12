@@ -1,15 +1,20 @@
 import "@/App.css";
 import Home from "@/components/Home";
-import { AddNote, EditNote, Notes, ViewNote } from "@notes";
+import Dashboard from "@pages/Dashboard";
+import Notes from "@pages/dashboard/Notes";
+import Profile from "@pages/dashboard/Profile";
+import AddNote from "@pages/dashboard/note/AddNote";
+import EditNote from "@pages/dashboard/note/EditNote";
+import ViewNote from "@pages/dashboard/note/ViewNote";
+import ChangePassword from "@pages/dashboard/password/ChangePassword";
+import EditProfile from "@pages/dashboard/profile/EditProfile";
 import Navigation from "@shared/Navigation";
 import NoMatch from "@shared/NoMatch";
-import { EditUser, Users } from "@users";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Dashboard from "./components/auth/Dashboard";
-import Login from "./components/auth/Login";
-import Register from "./components/auth/Register";
+import Login from "./components/auth/LoginSection";
+import Register from "./components/auth/RegisterSection";
 
 function App() {
   return (
@@ -19,14 +24,18 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/register" element={<Register />} />
-          <Route path="notes" element={<Notes />} />
-          <Route path="notes/:id" element={<ViewNote />} />
-          <Route path="add/notes" element={<AddNote />} />
-          <Route path="edit/notes/:id" element={<EditNote />} />
-          <Route path="users" element={<Users />} />
-          <Route path="edit/users/:id" element={<EditUser />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="dashboard/profile" element={<Profile />} />
+          <Route path="dashboard/profile/edit" element={<EditProfile />} />
+          <Route
+            path="dashboard/password/change"
+            element={<ChangePassword />}
+          />
+          <Route path="dashboard/notes" element={<Notes />} />
+          <Route path="dashboard/notes/:id" element={<ViewNote />} />
+          <Route path="dashboard/notes-add" element={<AddNote />} />
+          <Route path="dashboard/notes-edit/:id" element={<EditNote />} />
           <Route path="*" element={<NoMatch />} />
         </Routes>
       </Container>

@@ -1,7 +1,47 @@
+:root {
+    --color-1: #5e17eb;
+    --color-2: #ebecff;
+    --color-3: #fcfcfc;
+}
+
 .text-purple {
     color: #5e17eb;
 }
 
 .section {
     padding-top: 30px;
+}
+
+.tabNavParent {
+    background-color: var(--color-2);
+    color: #2c2c2c;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    min-height: 500px;
+}
+
+.tabNav {
+    display: block;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    background-color: var(--color-2);
+    text-decoration: none;
+    color: #2c2c2c;
+    border-radius: 5px;
+}
+
+.tabNav:hover {
+    background-color: var(--color-1) !important;
+    color: var(--color-3);
+}
+
+.tabNav.tabActive {
+    background-color: var(--color-1) !important;
+    color: var(--color-3);
+}
+
+.focused {
+    color: var(--color-1) !important;
+    font-weight: 500;
 }

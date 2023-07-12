@@ -5,9 +5,10 @@
       "@/*": ["./src/*", "./dist/*", ""],
       "@utils/*": ["src/utils/*"],
       "@assets/*": ["src/assets/*"],
+      "@pages/*": ["src/pages/*"],
       "@shared/*": ["src/components/shared/*"],
       "@notes/*": ["src/components/notes/*"],
-      "@users/*": ["src/components/users/*"]
+      "@profile/*": ["src/components/profile/*"]
     }
   }
 }

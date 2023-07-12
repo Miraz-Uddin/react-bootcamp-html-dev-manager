@@ -14,25 +14,17 @@ export default function Navigation() {
             <NavLink className="nav-link" to="/">
               Home
             </NavLink>
-            <NavLink className="nav-link" to="dashboard">
-              Dashboard
-            </NavLink>
-            <NavLink className="nav-link" to="users">
-              Users
-            </NavLink>
-            <NavDropdown title="Notes" id="navbarScrollingDropdown">
-              <NavLink className="nav-link" to="notes">
-                View All Notes
+            <NavDropdown title="Dashboard" id="navbarScrollingDropdown">
+              <NavLink className="nav-link" to="dashboard">
+                S . Holmes
               </NavLink>
               <NavDropdown.Divider />
-              <NavLink className="nav-link" to="add/notes">
-                Add Note
+              <NavLink className="nav-link" to="dashboard/password/change">
+                Change Password
               </NavLink>
-            </NavDropdown>
-            <NavDropdown title="Profile" id="navbarScrollingDropdown">
-              <NavDropdown.Item className="nav-link" to="logout">
+              <NavLink className="nav-link" to="login">
                 Logout
-              </NavDropdown.Item>
+              </NavLink>
             </NavDropdown>
             <NavLink className="nav-link" to="register">
               Register

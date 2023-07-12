@@ -1,10 +1,10 @@
 import { Col, Row } from "react-bootstrap";
 
-export default function ViewNote() {
+export default function AddSection() {
   return (
     <div className="section">
       <Row>
-        <Col>View Note</Col>
+        <Col>Add Note Form</Col>
       </Row>
     </div>
   );

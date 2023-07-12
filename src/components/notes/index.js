@@ -1,6 +1,6 @@
-import AddNote from "@notes/AddNote";
-import EditNote from "@notes/EditNote";
-import Notes from "@notes/Notes";
-import ViewNote from "@notes/ViewNote";
+import AddSection from "@notes/AddSection";
+import EditSection from "@notes/EditSection";
+import ListSection from "@notes/ListSection";
+import ViewSection from "@notes/ViewSection";
 
-export { AddNote, EditNote, Notes, ViewNote };
+export { AddSection, EditSection, ListSection, ViewSection };
