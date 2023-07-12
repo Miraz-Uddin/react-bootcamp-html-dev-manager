@@ -1,7 +1,7 @@
 <br />
  <p align="center">
     <img src="./logo.png" alt="Logo" width="207" height="47" />
-    <h3 align="center "><a href="https://devs-manager-by-miraz.netlify.app" target="_blank">Devs Manager</a></h3>
+    <h3 align="center "><a href="https://dev-manager-by-miraz.netlify.app" target="_blank">Devs Manager</a></h3>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -36,7 +36,7 @@
 
 ## ![liveLinkIcon][live-link-icon-shield] Live Link
 
-#### URL: https://devs-manager-by-miraz.netlify.app
+#### URL: https://dev-manager-by-miraz.netlify.app
 
 <br>
 

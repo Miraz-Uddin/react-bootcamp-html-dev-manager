@@ -5,7 +5,7 @@
 }
 
 .text-purple {
-    color: #5e17eb;
+    color: var(--color-1) !important;
 }
 
 .section {

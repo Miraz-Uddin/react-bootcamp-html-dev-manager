@@ -16,7 +16,7 @@ export default function Navigation() {
             </NavLink>
             <NavDropdown title="Dashboard" id="navbarScrollingDropdown">
               <NavLink className="nav-link" to="dashboard">
-                S . Holmes
+                <strong className="text-purple">Sherlock Holmes</strong>
               </NavLink>
               <NavDropdown.Divider />
               <NavLink className="nav-link" to="dashboard/password/change">
