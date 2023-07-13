@@ -1,0 +1,5 @@
+.addTask {
+    color: var(--color-1) !important;
+    text-decoration: none !important;
+    font-weight: 500;
+}

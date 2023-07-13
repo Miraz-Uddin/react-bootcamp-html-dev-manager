@@ -1,20 +1,22 @@
 import "@/App.css";
-import Home from "@/components/Home";
-import Dashboard from "@pages/Dashboard";
-import Notes from "@pages/dashboard/Notes";
-import Profile from "@pages/dashboard/Profile";
-import AddNote from "@pages/dashboard/note/AddNote";
-import EditNote from "@pages/dashboard/note/EditNote";
-import ViewNote from "@pages/dashboard/note/ViewNote";
-import ChangePassword from "@pages/dashboard/password/ChangePassword";
-import EditProfile from "@pages/dashboard/profile/EditProfile";
-import Navigation from "@shared/Navigation";
-import NoMatch from "@shared/NoMatch";
+import {
+  AddNote,
+  ChangePassword,
+  Dashboard,
+  EditNote,
+  EditProfile,
+  Home,
+  Login,
+  Notes,
+  PasswordReset,
+  Profile,
+  Register,
+  ViewNote,
+} from "@pages";
+import { Navigation, NoMatch } from "@shared";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Login from "./components/auth/LoginSection";
-import Register from "./components/auth/RegisterSection";
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/password/reset" element={<PasswordReset />} />
           <Route path="/register" element={<Register />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="dashboard/profile" element={<Profile />} />

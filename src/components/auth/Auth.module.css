@@ -1,0 +1,5 @@
+.forgot {
+    color: var(--color-1) !important;
+    text-decoration: none;
+    font-weight: 500;
+}

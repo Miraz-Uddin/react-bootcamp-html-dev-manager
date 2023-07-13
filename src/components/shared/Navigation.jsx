@@ -1,4 +1,4 @@
-import Logo from "@/assets/dev-logo.png";
+import Logo from "@assets/dev-logo.png";
 import { Container, Image, Nav, NavDropdown, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 export default function Navigation() {

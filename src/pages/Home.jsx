@@ -1,5 +1,4 @@
 import { Card, Col, Row } from "react-bootstrap";
-
 export default function Home() {
   return (
     <div className="section">

@@ -19,6 +19,7 @@ export default defineConfig({
       "@shared": `${path.resolve(__dirname, "./src/components/shared/")}`,
       "@notes": `${path.resolve(__dirname, "./src/components/notes/")}`,
       "@profile": `${path.resolve(__dirname, "./src/components/profile/")}`,
+      "@auth": `${path.resolve(__dirname, "./src/components/auth/")}`,
     },
   },
 });
